@@ -54,7 +54,7 @@ export default function Home() {
           {/* Hero Section */}
           <section className="py-12 md:py-24 flex flex-col md:flex-row items-center justify-center text-center gap-8">
             <div className="flex-1">
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Backend Developer</h1>
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Software Engineer</h1>
               <p className="mt-4 text-xl text-muted-foreground">
                 Building robust, scalable systems with Python and Golang
               </p>
@@ -151,6 +151,18 @@ export default function Home() {
                   <SkillBadge name="Terraform" level={65} />
                 </div>
               </div>
+
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Data</h3>
+                <div className="flex flex-wrap gap-3">
+                  <SkillBadge name="Airflow" level={85} />
+                  <SkillBadge name="Looker Studio" level={75} />
+                  <SkillBadge name="Metabase" level={80} />
+                  <SkillBadge name="Airbyte" level={70} />
+                  <SkillBadge name="Kafka" level={80} />
+                  {/* <SkillBadge name="" level={65} /> */}
+                </div>
+              </div>
             </div>
           </section>
 
@@ -165,6 +177,14 @@ export default function Home() {
                 technologies={["Golang", "gRPC", "Kubernetes", "PostgreSQL"]}
                 githubUrl="https://github.com/yourusername/microservice-platform"
                 liveUrl="https://example.com/microservice-platform"
+              />
+
+              <ProjectCard
+                title="Retail Management System"
+                description="Real-time Retail Management System with Dashboards and analytics using Grafana Dashboards."
+                technologies={["Laravel", "Javascript", "Grafana", "WebSockets"]}
+                // githubUrl="https://github.com/yourusername/monitoring-dashboard"
+                liveUrl="https://investify.citizix.com"
               />
 
               <ProjectCard
@@ -196,13 +216,7 @@ export default function Home() {
                 githubUrl="https://github.com/yourusername/task-queue"
               />
 
-              <ProjectCard
-                title="Retail Management System"
-                description="Real-time Retail Management System with Dashboards and analytics using Grafana Dashboards."
-                technologies={["Laravel", "Javascript", "Grafana", "WebSockets"]}
-                // githubUrl="https://github.com/yourusername/monitoring-dashboard"
-                liveUrl="https://investify.citizix.com"
-              />
+              
             </div>
           </section>
 
