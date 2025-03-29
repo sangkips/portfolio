@@ -72,7 +72,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg">
-                  I'm a backend developer with over 3 years of experience building scalable, high-performance systems. I
+                  I'm a backend developer with over 4 years of experience building scalable, high-performance systems. I
                   specialize in Python and Golang development, with expertise in microservices architecture, API design,
                   and database optimization.
                 </p>
@@ -89,7 +89,7 @@ export default function Home() {
                     <span className="font-medium">Backend:</span> Generative AI, Python, Golang
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="font-medium">Experience:</span> 3+ years
+                    <span className="font-medium">Experience:</span> 4+ years
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="font-medium">Frontend:</span> React, Next.js
@@ -213,33 +213,33 @@ export default function Home() {
             <div className="space-y-8">
               <ExperienceItem
                 title="Senior Backend Developer"
-                company="Tech Innovations Inc."
-                period="2021 - Present"
-                description="Lead backend development for a distributed system handling millions of requests daily. Implemented microservices architecture using Golang and Kubernetes."
+                company="Tech Care For All"
+                period="2024 August - Present"
+                description="Lead backend development for a distributed system handling thousands of requests daily. Implemented microservices architecture using Python and Kubernetes."
                 achievements={[
                   "Reduced API response time by 40% through code optimization and caching strategies",
                   "Designed and implemented a scalable event-driven architecture",
-                  "Led migration from monolith to microservices, improving deployment frequency by 300%",
+                  "Led migration from monolith to microservices, improving deployment frequency by 80%",
                 ]}
               />
 
               <ExperienceItem
                 title="Backend Developer"
-                company="DataSystems Corp."
-                period="2018 - 2021"
+                company="Untapped Global."
+                period="2023 March - 2024 July"
                 description="Developed and maintained Python-based data processing pipelines and APIs for a financial technology platform."
                 achievements={[
-                  "Built RESTful APIs using Django and Flask serving 100K+ daily users",
+                  "Built RESTful APIs using Django and Flask serving many daily users",
                   "Optimized database queries resulting in 50% faster report generation",
                   "Implemented automated testing that increased code coverage from 65% to 90%",
                 ]}
               />
 
               <ExperienceItem
-                title="Software Engineer"
-                company="StartupXYZ"
-                period="2016 - 2018"
-                description="Full-stack developer for an early-stage startup, focusing primarily on backend systems and infrastructure."
+                title="Backend Engineer"
+                company="SpaceyaTech"
+                period="2022 January - 2023 February"
+                description="Software developer for an early-stage startup, focusing primarily on backend systems and infrastructure."
                 achievements={[
                   "Designed and implemented the initial backend architecture using Python",
                   "Set up CI/CD pipelines and deployment workflows",
