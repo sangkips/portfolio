@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import { Github, Mail, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ProjectCard from "@/components/project-card"
@@ -72,7 +72,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg">
-                  I'm a backend developer with over 4 years of experience building scalable, high-performance systems. I
+                  I&apos;m a backend developer with over 4 years of experience building scalable, high-performance systems. I
                   specialize in Python and Golang development, with expertise in microservices architecture, API design,
                   and database optimization.
                 </p>
@@ -175,14 +175,14 @@ export default function Home() {
                 title="Microservice Platform"
                 description="A scalable microservice architecture built with Golang, gRPC, and Kubernetes."
                 technologies={["Golang", "gRPC", "Kubernetes", "PostgreSQL"]}
-                githubUrl="https://github.com/yourusername/microservice-platform"
-                liveUrl="https://example.com/microservice-platform"
+                githubUrl="https://github.com/sangkips/grpc-orders-management"
+                // liveUrl="https://example.com/microservice-platform"
               />
 
               <ProjectCard
                 title="Retail Management System"
                 description="Real-time Retail Management System with Dashboards and analytics using Grafana Dashboards."
-                technologies={["Laravel", "Javascript", "Grafana", "WebSockets"]}
+                technologies={["Laravel", "Javascript", "Grafana", "K8s", "Docker", "Helm"]}
                 // githubUrl="https://github.com/yourusername/monitoring-dashboard"
                 liveUrl="https://investify.citizix.com"
               />
@@ -190,31 +190,31 @@ export default function Home() {
               <ProjectCard
                 title="Data Processing Pipeline"
                 description="High-performance data processing system using Python, Kafka, and Spark."
-                technologies={["Python", "Apache Kafka", "Apache Spark", "Redis"]}
-                githubUrl="https://github.com/yourusername/data-pipeline"
+                technologies={["Fastapi", "Apache Kafka", "Apache Spark", "Redis", "Next js", "Postgresql"]}
+                githubUrl="https://github.com/sangkips/datalift-frontend"
               />
 
               <ProjectCard
-                title="API Gateway"
-                description="Secure API gateway with rate limiting, authentication, and request validation."
-                technologies={["Golang", "Redis", "JWT", "Docker"]}
-                githubUrl="https://github.com/yourusername/api-gateway"
-                liveUrl="https://example.com/api-gateway"
+                title="Document Upload"
+                description="Secure Document upload with authentication and request validation ."
+                technologies={["Golang", "S3", "JWT", "Pinata"]}
+                githubUrl="https://github.com/sangkips/fileupload"
+                // liveUrl="https://example.com/api-gateway"
               />
 
-              <ProjectCard
+              {/* <ProjectCard
                 title="Database Migration Tool"
                 description="Tool for seamless database migrations with zero downtime."
                 technologies={["Python", "SQLAlchemy", "PostgreSQL", "MySQL"]}
                 githubUrl="https://github.com/yourusername/db-migration-tool"
-              />
+              /> */}
 
-              <ProjectCard
+              {/* <ProjectCard
                 title="Distributed Task Queue"
                 description="Fault-tolerant distributed task queue with priority scheduling."
                 technologies={["Golang", "Redis", "RabbitMQ", "gRPC"]}
                 githubUrl="https://github.com/yourusername/task-queue"
-              />
+              /> */}
 
               
             </div>
@@ -270,7 +270,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg mb-4">
-                  I'm currently open to new opportunities and collaborations. Feel free to reach out if you'd like to
+                  I&apos;m currently open to new opportunities and collaborations. Feel free to reach out if you&apos;d like to
                   discuss a project or position.
                 </p>
 

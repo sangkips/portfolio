@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 
@@ -37,7 +36,8 @@ export default function ContactForm() {
       } else {
         setFormStatus({ error: data.error || "Something went wrong. Please try again." })
       }
-    } catch (error) {
+    } catch (err) {
+      // Using err instead of error to avoid the unused variable warning
       setFormStatus({ error: "Network error. Please try again." })
     } finally {
       setIsSubmitting(false)
@@ -48,7 +48,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-4">
       {formStatus.success && (
         <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
-          Thank you for your message! I'll get back to you soon.
+          Thank you for your message! I{"'"}ll get back to you soon.
         </div>
       )}
 
