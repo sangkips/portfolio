@@ -202,12 +202,12 @@ export default function Home() {
                 // liveUrl="https://example.com/api-gateway"
               />
 
-              {/* <ProjectCard
-                title="Database Migration Tool"
-                description="Tool for seamless database migrations with zero downtime."
-                technologies={["Python", "SQLAlchemy", "PostgreSQL", "MySQL"]}
-                githubUrl="https://github.com/yourusername/db-migration-tool"
-              /> */}
+              <ProjectCard
+                title="AI Visualization Assistant"
+                description="AI presentation assistant for generating visualizations"
+                technologies={["Python", "SQLAlchemy", "PostgreSQL", "LLM"]}
+                liveUrl="https://vizagent-yzvo-jvpk3a5ej-sangs-projects-df772ab9.vercel.app/documents"
+              />
 
               {/* <ProjectCard
                 title="Distributed Task Queue"
