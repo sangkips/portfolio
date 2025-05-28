@@ -206,7 +206,7 @@ export default function Home() {
                 title="AI Visualization Assistant"
                 description="AI presentation assistant for generating visualizations"
                 technologies={["Python", "SQLAlchemy", "PostgreSQL", "LLM"]}
-                liveUrl="https://vizagent-yzvo-jvpk3a5ej-sangs-projects-df772ab9.vercel.app/documents"
+                liveUrl="https://vizagent-yzvo-g098mi63w-sangs-projects-df772ab9.vercel.app/"
               />
 
               {/* <ProjectCard
