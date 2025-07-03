@@ -1,10 +1,9 @@
-
-import { Github, Mail, Linkedin } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import ProjectCard from "@/components/project-card"
-import SkillBadge from "@/components/skill-badge"
-import ExperienceItem from "@/components/experience-item"
-import ContactForm from "@/components/contact-form"
+import { Github, Mail, Linkedin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import ProjectCard from "@/components/project-card";
+import SkillBadge from "@/components/skill-badge";
+import ExperienceItem from "@/components/experience-item";
+import ContactForm from "@/components/contact-form";
 
 export default function Home() {
   return (
@@ -15,31 +14,54 @@ export default function Home() {
           <div className="flex h-16 items-center justify-between">
             <div className="font-bold text-xl">Kipkoech Sang</div>
             <nav className="hidden md:flex items-center gap-6">
-              <a href="#about" className="text-sm font-medium hover:text-primary">
+              <a
+                href="#about"
+                className="text-sm font-medium hover:text-primary"
+              >
                 About
               </a>
-              <a href="#skills" className="text-sm font-medium hover:text-primary">
+              <a
+                href="#skills"
+                className="text-sm font-medium hover:text-primary"
+              >
                 Skills
               </a>
-              <a href="#projects" className="text-sm font-medium hover:text-primary">
+              <a
+                href="#projects"
+                className="text-sm font-medium hover:text-primary"
+              >
                 Projects
               </a>
-              <a href="#experience" className="text-sm font-medium hover:text-primary">
+              <a
+                href="#experience"
+                className="text-sm font-medium hover:text-primary"
+              >
                 Experience
               </a>
-              <a href="#contact" className="text-sm font-medium hover:text-primary">
+              <a
+                href="#contact"
+                className="text-sm font-medium hover:text-primary"
+              >
                 Contact
               </a>
             </nav>
             <div className="flex items-center gap-2">
               <Button variant="ghost" size="icon">
-                <a href="https://github.com/sangkips" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/sangkips"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Github className="h-5 w-5" />
                   <span className="sr-only">GitHub</span>
                 </a>
               </Button>
               <Button variant="ghost" size="icon">
-                <a href="https://www.linkedin.com/in/sangkips/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/sangkips/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </a>
@@ -54,7 +76,9 @@ export default function Home() {
           {/* Hero Section */}
           <section className="py-12 md:py-24 flex flex-col md:flex-row items-center justify-center text-center gap-8">
             <div className="flex-1">
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Software Engineer</h1>
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+                Software Engineer
+              </h1>
               <p className="mt-4 text-xl text-muted-foreground">
                 Building robust, scalable systems with Python and Golang
               </p>
@@ -72,13 +96,15 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg">
-                  I&apos;m a backend developer with over 4 years of experience building scalable, high-performance systems. I
-                  specialize in Python and Golang development, with expertise in microservices architecture, API design,
-                  and database optimization.
+                  I&apos;m a backend developer with over 4 years of experience
+                  building scalable, high-performance systems. I specialize in
+                  Python and Golang development, with expertise in microservices
+                  architecture, API design, and database optimization.
                 </p>
                 <p className="text-lg mt-4">
-                  My passion lies in creating efficient, maintainable code that solves real-world problems. I enjoy
-                  working on complex backend systems and have experience with various cloud platforms and
+                  My passion lies in creating efficient, maintainable code that
+                  solves real-world problems. I enjoy working on complex backend
+                  systems and have experience with various cloud platforms and
                   containerization technologies.
                 </p>
               </div>
@@ -86,16 +112,19 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4">Quick Facts</h3>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
-                    <span className="font-medium">Backend:</span> Generative AI, Python, Golang
+                    <span className="font-medium">Backend:</span> Generative AI,
+                    Python, Golang
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="font-medium">Experience:</span> 4+ years
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="font-medium">Frontend:</span> React, Next.js
+                    <span className="font-medium">Frontend:</span> React,
+                    Next.js
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="font-medium">Interests:</span> Open Source, Cloud Computing, DevOps
+                    <span className="font-medium">Interests:</span> Open Source,
+                    Cloud Computing, DevOps
                   </li>
                 </ul>
               </div>
@@ -108,7 +137,9 @@ export default function Home() {
 
             <div className="space-y-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4">Programming Languages</h3>
+                <h3 className="text-xl font-semibold mb-4">
+                  Programming Languages
+                </h3>
                 <div className="flex flex-wrap gap-3">
                   <SkillBadge name="Python" level={90} />
                   <SkillBadge name="Golang" level={85} />
@@ -119,7 +150,9 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-4">Frameworks & Libraries</h3>
+                <h3 className="text-xl font-semibold mb-4">
+                  Frameworks & Libraries
+                </h3>
                 <div className="flex flex-wrap gap-3">
                   <SkillBadge name="Django" level={85} />
                   <SkillBadge name="Flask" level={80} />
@@ -182,7 +215,14 @@ export default function Home() {
               <ProjectCard
                 title="Retail Management System"
                 description="Real-time Retail Management System with Dashboards and analytics using Grafana Dashboards."
-                technologies={["Laravel", "Javascript", "Grafana", "K8s", "Docker", "Helm"]}
+                technologies={[
+                  "Laravel",
+                  "Javascript",
+                  "Grafana",
+                  "K8s",
+                  "Docker",
+                  "Helm",
+                ]}
                 // githubUrl="https://github.com/yourusername/monitoring-dashboard"
                 liveUrl="https://investify.citizix.com"
               />
@@ -190,7 +230,14 @@ export default function Home() {
               <ProjectCard
                 title="Data Processing Pipeline"
                 description="High-performance data processing system using Python, Kafka, and Spark."
-                technologies={["Fastapi", "Apache Kafka", "Apache Spark", "Redis", "Next js", "Postgresql"]}
+                technologies={[
+                  "Fastapi",
+                  "Apache Kafka",
+                  "Apache Spark",
+                  "Redis",
+                  "Next js",
+                  "Postgresql",
+                ]}
                 githubUrl="https://github.com/sangkips/datalift-frontend"
               />
 
@@ -209,14 +256,17 @@ export default function Home() {
                 liveUrl="https://vizagent-yzvo-g098mi63w-sangs-projects-df772ab9.vercel.app/"
               />
 
-              {/* <ProjectCard
-                title="Distributed Task Queue"
-                description="Fault-tolerant distributed task queue with priority scheduling."
-                technologies={["Golang", "Redis", "RabbitMQ", "gRPC"]}
-                githubUrl="https://github.com/yourusername/task-queue"
-              /> */}
-
-              
+              <ProjectCard
+                title="Reading Buddy - Interactive Learning App"
+                description="A mobile learning application built with React Native and Expo, designed to help children develop reading and pronunciation skills through interactive chat, practice sessions, and gamified progress tracking.."
+                technologies={[
+                  "React Native",
+                  "Expo SDK",
+                  "Supabase",
+                  "Expo Speech API",
+                ]}
+                githubUrl="https://github.com/sangkips/kids-tutor"
+              />
             </div>
           </section>
 
@@ -270,14 +320,18 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg mb-4">
-                  I&apos;m currently open to new opportunities and collaborations. Feel free to reach out if you&apos;d like to
+                  I&apos;m currently open to new opportunities and
+                  collaborations. Feel free to reach out if you&apos;d like to
                   discuss a project or position.
                 </p>
 
                 <div className="space-y-4 mt-6">
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-primary" />
-                    <a href="mailto:sangkipkoech@gmail.com" className="hover:text-primary">
+                    <a
+                      href="mailto:sangkipkoech@gmail.com"
+                      className="hover:text-primary"
+                    >
                       sangkipkoech@gmail.com
                     </a>
                   </div>
@@ -314,18 +368,25 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t py-6 md:py-0">
         <div className="w-full max-w-screen-xl mx-auto px-6 md:px-10 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-4 md:h-16">
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Kipkoech Sang. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">
+            © {new Date().getFullYear()} Kipkoech Sang. All rights reserved.
+          </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
+            <a
+              href="#"
+              className="text-sm text-muted-foreground hover:text-foreground"
+            >
               Privacy Policy
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
+            <a
+              href="#"
+              className="text-sm text-muted-foreground hover:text-foreground"
+            >
               Terms of Service
             </a>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
-
