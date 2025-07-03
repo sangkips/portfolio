@@ -144,7 +144,7 @@ export default function Home() {
                   <SkillBadge name="Python" level={90} />
                   <SkillBadge name="Golang" level={85} />
                   <SkillBadge name="JavaScript" level={70} />
-                  <SkillBadge name="SQL" level={80} />
+                  <SkillBadge name="Artificial Intentelligence" level={80} />
                   <SkillBadge name="Bash" level={65} />
                 </div>
               </div>
@@ -159,7 +159,7 @@ export default function Home() {
                   <SkillBadge name="FastAPI" level={75} />
                   <SkillBadge name="Gin" level={80} />
                   <SkillBadge name="Echo" level={70} />
-                  <SkillBadge name="Django" level={75} />
+                  {/* <SkillBadge name="D" level={75} /> */}
                 </div>
               </div>
 
