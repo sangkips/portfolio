@@ -205,11 +205,11 @@ export default function Home() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <ProjectCard
-                title="Microservice Platform"
-                description="A scalable microservice architecture built with Golang, gRPC, and Kubernetes."
-                technologies={["Golang", "gRPC", "Kubernetes", "PostgreSQL"]}
-                githubUrl="https://github.com/sangkips/grpc-orders-management"
-                // liveUrl="https://example.com/microservice-platform"
+                title="Fleet Management System"
+                description="Fleet Management System is a telematics system involving inetegrating telecommunications and informatics to monitor and manage vehicles remotely. It involves collecting, transmitting, and analyzing vehicle data like location, speed, fuel usage, engine diagnostics, and driver behavior through embedded devices or external hardware."
+                technologies={["Golang", "Typscript", "Vite", "MongoDB"]}
+                // githubUrl="https://github.com/sangkips/grpc-orders-management"
+                liveUrl="https://telematics-pearl.vercel.app/"
               />
 
               <ProjectCard
