@@ -80,7 +80,8 @@ export default function Home() {
                 Software Engineer
               </h1>
               <p className="mt-4 text-xl text-muted-foreground">
-                Building robust, scalable systems with Python and Golang
+                Building robust, scalable systems with Python, Golang and
+                TypeScript
               </p>
               <div className="mt-8 flex gap-4 justify-center text-center">
                 <Button>
