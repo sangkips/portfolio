@@ -113,18 +113,17 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4">Quick Facts</h3>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
-                    <span className="font-medium">Backend:</span> Generative AI,
-                    Python, Golang
+                    <span className="text-xl font-semibold">Backend:</span>Golang, Python
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="font-medium">Experience:</span> 4+ years
+                    <span className="text-xl font-semibold">Experience:</span> 4+ years
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="font-medium">Frontend:</span> React,
+                    <span className="text-xl font-semibold">Frontend:</span> React,
                     Next.js
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="font-medium">Interests:</span> Open Source,
+                    <span className="text-xl font-semibold">Interests:</span> Open Source,
                     Cloud Computing, DevOps
                   </li>
                 </ul>
@@ -160,6 +159,7 @@ export default function Home() {
                   <SkillBadge name="FastAPI" level={75} />
                   <SkillBadge name="Gin" level={80} />
                   <SkillBadge name="Echo" level={70} />
+                  <SkillBadge name="go-chi" level={70} />
                   {/* <SkillBadge name="D" level={75} /> */}
                 </div>
               </div>
@@ -193,8 +193,13 @@ export default function Home() {
                   <SkillBadge name="Looker Studio" level={75} />
                   <SkillBadge name="Metabase" level={80} />
                   <SkillBadge name="Airbyte" level={70} />
+                </div>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Queues</h3>
+                <div className="flex flex-wrap gap-3">
+                  <SkillBadge name="RabbitMQ" level={85} />
                   <SkillBadge name="Kafka" level={80} />
-                  {/* <SkillBadge name="" level={65} /> */}
                 </div>
               </div>
             </div>
@@ -208,24 +213,28 @@ export default function Home() {
               <ProjectCard
                 title="Fleet Management System"
                 description="Fleet Management System is a telematics system involving inetegrating telecommunications and informatics to monitor and manage vehicles remotely. It involves collecting, transmitting, and analyzing vehicle data like location, speed, fuel usage, engine diagnostics, and driver behavior through embedded devices or external hardware."
-                technologies={["Golang", "Typscript", "Vite", "MongoDB"]}
-                // githubUrl="https://github.com/sangkips/grpc-orders-management"
-                liveUrl="https://telematics-pearl.vercel.app/"
+                technologies={["Golang", "Typscript", "MongoDB", "Redis", "WebSockets", "go-chi"]}
+                githubUrl="https://github.com/sangkips/vehicle-telematics"
+                liveUrl="https://telematics.autoscaleops.com"
               />
 
               <ProjectCard
                 title="Retail Management System"
                 description="Real-time Retail Management System with Dashboards and analytics using Grafana Dashboards."
                 technologies={[
-                  "Laravel",
-                  "Javascript",
+                  "Golang",
+                  "Typescript",
+                  "Next.js",
                   "Grafana",
                   "K8s",
                   "Docker",
                   "Helm",
+                  "Github Actions",
+                  "Gin",
+                  "Redis"
                 ]}
-                // githubUrl="https://github.com/yourusername/monitoring-dashboard"
-                liveUrl="https://investify.citizix.com"
+                githubUrl="https://github.com/sangkips/crm-backend"
+                liveUrl="https://investify.autoscaleops.com"
               />
 
               <ProjectCard
@@ -247,7 +256,6 @@ export default function Home() {
                 description="Secure Document upload with authentication and request validation ."
                 technologies={["Golang", "S3", "JWT", "Pinata"]}
                 githubUrl="https://github.com/sangkips/fileupload"
-                // liveUrl="https://example.com/api-gateway"
               />
 
               <ProjectCard
@@ -267,6 +275,13 @@ export default function Home() {
                   "Expo Speech API",
                 ]}
                 githubUrl="https://github.com/sangkips/kids-tutor"
+              />
+
+              <ProjectCard
+                title="Campaign Dispatch Service"
+                description="A service for managing and dispatching personalized marketing campaigns via SMS and WhatsApp. The service supports immediate and scheduled campaign dispatch with template-based message personalization."
+                technologies={["Golang", "Typscript", "PostgreSql", "Redis", "RabbitMQ", "go-chi"]}
+                githubUrl="https://github.com/sangkips/campaign-dispatch-service"
               />
             </div>
           </section>
