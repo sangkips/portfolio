@@ -283,6 +283,13 @@ export default function Home() {
                 technologies={["Golang", "Typscript", "PostgreSql", "Redis", "RabbitMQ", "go-chi"]}
                 githubUrl="https://github.com/sangkips/campaign-dispatch-service"
               />
+
+              <ProjectCard
+                title="Helm Charts"
+                description="Helm charts for managing Kubernetes resources"
+                technologies={["Helm"]}
+                githubUrl="https://github.com/sangkips/fleet-infra"
+              />
             </div>
           </section>
 
